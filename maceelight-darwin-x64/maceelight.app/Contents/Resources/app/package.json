@@ -1,0 +1,28 @@
+{
+  "name": "maceelight",
+  "version": "1.0.0",
+  "description": "Control Yeelight on mac",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "keywords": [
+    "electron",
+    "electronjs",
+    "yeelight",
+    "xiaomi",
+    "mi",
+    "mac"
+  ],
+  "author": "Mohammadreza Yektamaram",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^4.1.5"
+  },
+  "dependencies": {
+    "@jaames/iro": "^4.3.3",
+    "menubar": "^5.2.3",
+    "miio": "^0.15.6"
+  }
+}
