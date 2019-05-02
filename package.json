@@ -15,8 +15,15 @@
     "mi",
     "mac"
   ],
-  "author": "Mohammadreza Yektamaram",
-  "license": "ISC",
+  "author": {
+    "name": "Mohammadreza Yektamaram",
+    "email": "mohammad.1ta@gmail.com",
+    "url": "https://www.linkedin.com/in/mohammad1ta"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mohammad1ta/maceelight/issues"
+  },
   "devDependencies": {
     "electron": "^4.1.5"
   },
