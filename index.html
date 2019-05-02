@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Maceelight...</title>
+    <link rel="stylesheet" media="screen" href="assets/styles/main.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 ,maximum-scale=1" />
+</head>
+
+<body>
+
+    <div id="device-status" class="show">
+        <div id="device-status-text">Device not detected</div>
+        <span id="retry" class="button">Retry</span>
+    </div>
+
+    <ul class="color-list">
+        <li>
+            <div class="card" data-color="#ff4676">
+                <span class="color-card red"></span>
+            </div>
+        </li>
+        <li>
+            <div class="card" data-color="#17d6d1">
+                <span class="color-card aqua"></span>
+            </div>
+        </li>
+        <li>
+            <div class="card" data-color="#ffe431">
+                <span class="color-card yellow"></span>
+            </div>
+        </li>
+        <li>
+            <div class="card" data-color="#00b1ff">
+                <span class="color-card blue"></span>
+            </div>
+        </li>
+        <li>
+            <div class="card" data-color="#ff0199">
+                <span class="color-card pink"></span>
+            </div>
+        </li>
+        <li>
+            <div class="card" data-color="#ff8500">
+                <span class="color-card orange"></span>
+            </div>
+        </li>
+        <li>
+            <div class="card" data-color="#13fcb4">
+                <span class="color-card green"></span>
+            </div>
+        </li>
+        <li>
+            <div class="card" data-color="#5066ff">
+                <span class="color-card purple"></span>
+            </div>
+        </li>
+        <li>
+            <div class="card" data-color="#ff0e0e">
+                <span class="color-card red2"></span>
+            </div>
+        </li>
+        <li>
+            <div class="card" data-color="#cddc3a">
+                <span class="color-card lime"></span>
+            </div>
+        </li>
+        <li>
+            <div class="card" data-color="#f7f7f7">
+                <span class="color-card white"></span>
+            </div>
+        </li>
+        <li>
+            <div class="card" id="open-picker">
+                <span class="color-card black">
+                    <img src="assets/images/picker.png" alt="" />
+                </span>
+            </div>
+        </li>
+    </ul>
+
+    <div class="rangebar">
+        <span id="brightness-value">%100</span>
+        <input id="brightness" type="range" min="10" max="100" step="5" value="100" />
+    </div>
+
+    <div class="footer">
+
+        <div class="left">
+            <a href="https://github.com/mohammad1ta/maceelight" id="footer-link">
+                <img src="assets/images/logo.png" alt="" />
+            </a>
+        </div>
+
+        <div class="right">
+            <img src="assets/images/disco.png" id="disco" alt="" />
+            <label class="switch">
+                <input type="checkbox" id="power" value="1" />
+                <span class="slider round"></span>
+            </label>
+        </div>
+
+    </div>
+
+    <div id="color-picker-container">
+        <img id="color-picker-close" src="assets/images/close.png" alt="" />
+        <div id="color-picker"></div>
+    </div>
+
+    <script src="assets/scripts/main.js" defer></script>
+
+</body>
+</html>
