@@ -15,7 +15,7 @@
   </a>
   <!-- Downloads total -->
   <a href="https://github.com/mohammad1ta/maceelight/releases">
-    <img src="https://img.shields.io/github/downloads/mohammad1ta/maceelight/1.0.0/total.svg" alt="total download">
+    <img src="https://img.shields.io/github/downloads/mohammad1ta/maceelight/1.0.1/total.svg" alt="total download">
   </a>
   <!-- Stars -->
   <a href="https://github.com/mohammad1ta/maceelight">
