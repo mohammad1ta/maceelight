@@ -1,11 +1,12 @@
 {
   "name": "maceelight",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Control Yeelight on mac",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "electron ."
+    "start": "electron .",
+    "pkg": "electron-builder"
   },
   "keywords": [
     "electron",
@@ -15,6 +16,58 @@
     "mi",
     "mac"
   ],
+  "build": {
+    "productName": "Maceelight",
+    "appId": "org.mohammad1ta.maceelight",
+    "files": [
+      "./assets",
+      "./index.html",
+      "./app.js",
+      "./IconTemplate.png",
+      "./IconTemplate@2x.png",
+      "package.json"
+    ],
+    "dmg": {
+      "icon": "./assets/images/icon.png",
+      "contents": [
+        {
+          "x": 130,
+          "y": 220
+        },
+        {
+          "x": 410,
+          "y": 220,
+          "type": "link",
+          "path": "/Applications"
+        }
+      ]
+    },
+    "win": {
+      "target": [
+        "nsis",
+        "msi"
+      ]
+    },
+    "linux": {
+      "target": [
+        "deb",
+        "rpm",
+        "snap",
+        "AppImage"
+      ],
+      "category": "Development"
+    },
+    "directories": {
+      "buildResources": "resources",
+      "output": "release"
+    },
+    "publish": {
+      "provider": "github",
+      "owner": "electron-github",
+      "repo": "electron-github",
+      "private": false
+    }
+  },
   "author": {
     "name": "Mohammadreza Yektamaram",
     "email": "mohammad.1ta@gmail.com",
@@ -25,7 +78,9 @@
     "url": "https://github.com/mohammad1ta/maceelight/issues"
   },
   "devDependencies": {
-    "electron": "^4.1.5"
+    "electron": "^4.1.5",
+    "electron-builder": "^20.39.0",
+    "electron-installer-dmg": "^2.0.0"
   },
   "dependencies": {
     "@jaames/iro": "^4.3.3",
