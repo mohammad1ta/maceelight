@@ -13,10 +13,6 @@
   <a href="https://github.com/mohammad1ta/maceelight/blob/master/LICENSE">
     <img src="https://img.shields.io/github/license/mohammad1ta/maceelight.svg" alt="LICENSE">
   </a>
-  <!-- Downloads total -->
-  <a href="https://github.com/mohammad1ta/maceelight/releases">
-    <img src="https://img.shields.io/github/downloads/mohammad1ta/maceelight/1.0.1/total.svg" alt="total download">
-  </a>
   <!-- Stars -->
   <a href="https://github.com/mohammad1ta/maceelight">
     <img src="https://img.shields.io/github/stars/mohammad1ta/maceelight.svg" alt="Stars">
