@@ -22,6 +22,9 @@
 For the first time, control your yeelight (White Bulb, Color Bulb, Desk Lamp and Strip) from mac ( OSX ).  
 
 
+## Video - Demo
+[![Demo](https://img.youtube.com/vi/CMbEHtLZafA/2.jpg)](https://youtu.be/CMbEHtLZafA "Arduino equalizer example") 
+
 ## Features:
 * Color choice between 11 default colors
 * Ability to choose the desired color using the color picker
