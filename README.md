@@ -31,3 +31,14 @@ For the first time, control your yeelight (White Bulb, Color Bulb, Desk Lamp and
 * Ability to change brightness from %10 to %100
 * Possibility to turn the light power on/off
 * Turning the light into disco (light dance)
+
+## How to install?
+You can either download the [release file](https://github.com/mohammad1ta/maceelight/releases/download/1.0.1/Maceelight-1.0.0.dmg), or build it from the following steps by electron.  
+
+- Clone this project and go to that folder by Terminal.  
+- Run the following commands:
+```properties
+$ npm i -D electron@latest
+$ npm i -S menubar
+$ electron .
+```
